@@ -1,5 +1,5 @@
 import {motion} from "framer-motion"
-import { FaArrowPointer, FaGithub, FaLinkedin, FaLinkedinIn } from "react-icons/fa6";
+import { FaArrowPointer, FaGithub, FaLinkedinIn } from "react-icons/fa6";
 function Header() {
 
 
