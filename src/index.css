@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .input{
+    @apply rounded-[0.4rem]   px-2 py-2 focus:outline-none focus:ring focus:ring-stone-800 
+  }
+
+}
+
+ .loader {
+  width: 45px;
+  aspect-ratio: 0.75;
+  --c: no-repeat linear-gradient(#deec16 0 0);
+  background: var(--c) 0% 50%, var(--c) 50% 50%, var(--c) 100% 50%;
+  background-size: 20% 50%;
+  animation: loading 1s infinite linear;
+}
+
+@keyframes loading {
+  20% {
+    background-position: 0% 0%, 50% 50%, 100% 50%;
+  }
+  40% {
+    background-position: 0% 100%, 50% 0%, 100% 50%;
+  }
+  60% {
+    background-position: 0% 50%, 50% 100%, 100% 0%;
+  }
+  80% {
+    background-position: 0% 50%, 50% 50%, 100% 100%;
+  }
+}
+
+
+  /* ============= */
+/* variables */
+/* ================== */
+:root{
+ /* light shades for primary color == */
+ --clr-primary-1:#efeef2;
+ --clr-primary-2:#dedde5;
+ --clr-primary-3:#ceccd9;
+ --clr-primary-4:#41423f;
+ /* primary main color */
+ --clr-primary-5:#fbff00dc;
+ /* lighter shades of primary color */
+ --clr-primary-6:#0e0f0c;
+ --clr-primary-7:#0b0b09;
+ --clr-primary-8:#45444c;
+ --clr-primary-9:#232226;
+/* darkest grey used for heading */
+
+
+
+ --clr-white:#fff;
+ --ff-primary:'Actor', sans-serif;
+ --ff-secondary:'Bebas Neue', sans-serif;
+  --headingfont: 'Rufina', serif;
+ --bodyfont:  'Actor', sans-serif;
+ /* --spacing:0.3rem; */
+ --transition:all 0.3s linear;
+ --border-radius:0.8rem;
+ --light-shadow:0 5px 15px rgba(0, 0, 0, 0.1);
+ --dark-shadow:0 5px 15px rgba(0, 0, 0, 0.2);
+}
+*,::after,::before{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+ul{
+ list-style-type: none;
+}
+body{
+  /* font-family: var(--ff-primary); */
+  line-height: 1.5;
+  background:#242423;
+  color: var(--clr-white);
+  font-size: 0.875rem;
+}
+img:not(.nav-logo){
+  width: 100%;
+  display: block;
+}
+.nav-logo{
+ height: 3rem;
+width: 13rem;
+-o-object-fit: cover;
+   object-fit: cover;
+}
+a{
+  text-decoration: none;
+}
+h1,h2,h3,h4{
+  /* font-family:  "Bebas Neue,",  sans-serif; */
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.2;
+  margin-bottom: 0.7;
+}
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.2rem;
+}
+h4{
+  font-size: 1rem;
+}
+p{
+  margin-bottom: 1.2rem;
+  max-width: 35rem;
+  font-family: var(--bodyfont);
+}
+@media screen and (min-width:900px){
+  h1{
+    font-size:4rem ;
+  }
+  h2{
+    font-size:3rem ;
+  }
+  h3{
+    font-size:2rem ;
+  }
+  h4{
+    font-size:1rem ;
+  }
+  body{
+    font-size: 1rem;
+  }
+  h1,h2,h3,h4{
+    line-height: 1;
+  }
+}
+.btn{
+  padding: 0.6rem 0.2rem;
+  background:var(--clr-primary-5) ;
+  transition: var(--transition);
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  text-transform: uppercase;
+  color: var(--clr-white);
+  cursor: pointer;
+  font-weight: bold;
+  border: 3px solid transparent;
+}
+.btn:hover{
+  background: var(--clr-primary-1);
+  color: var(--clr-primary-8);
+}
+/* global styles */
+.section{
+  padding: 5rem 0;
+}
+.section-title{
+  text-align: center;
+}
+.underline{
+  width: 6rem;
+  height: 0.3rem;
+  background: var(--clr-primary-5);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+}
+.section-center{
+ width: 85vw;
+ max-width: 1170px;
+ margin: 0 auto;
+}
+
+.section-title{
+  margin-bottom: 3rem;
+  text-align: center;
+}
+@media screen and (min-width:999px) {
+ .section-center{
+width: 95vw;
+ }
+}
