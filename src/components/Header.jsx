@@ -19,10 +19,10 @@ function Header() {
            Hi, I Am <br /> koja williams
          </h1>
          <p>
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-           molestias ipsam obcaecati cum fugit nihil enim optio quam. Quaerat,
-           enim cupiditate. Quisquam neque necessitatibus ipsam nobis inventore!
-           Possimus, quas quasi?
+           Hi, I&apos;m williams, a web developer with a passion for creating
+           beautiful, functional, and user-centered digital experiences. With
+           over 1 years of experience in the field. I am always looking for new
+           and innovative ways to bring my clients visions to life.
          </p>
 
          <div className="flex gap-2 items-center">
@@ -46,13 +46,12 @@ function Header() {
        </div>
        <div>
          <img
-           src="/image/developer-pic-2.jpg"
+           src="/image/willy.jpg"
            alt="developer"
            className="h-full md:h-[29rem] object-cover rounded-[1rem]"
          />
        </div>
      </article>
-   
    </motion.header>
  );
 }

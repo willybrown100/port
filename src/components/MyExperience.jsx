@@ -17,10 +17,10 @@ function MyExperience() {
          <p className="text-stone-300 text-[0.96rem]">Nov 2023&mdash;present</p>
        </div>
        <p className="text-stone-300">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi qui
-         voluptatem adipisci libero accusantium debitis labore quos tenetur aut?
-         Corporis minus fugiat obcaecati, error maiores consectetur quasi
-         numquam quis?
+         Whether I&apos;m working on a website or other digital product, I bring
+         my commitment to design excellence and user-centered thinking to every
+         project I work on. I look forward to the opportunity to bring my skills
+         and passion to your next project.
        </p>
        <div className="md:flex justify-between">
          <h4 className="capitalize">front-end intern</h4>

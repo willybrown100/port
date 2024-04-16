@@ -29,7 +29,7 @@ function About() {
 
      <div className="md:hidden">
        <img
-         src="/image/developer-pic-2.jpg"
+         src="/image/willy.jpg"
          alt="developer"
          className="h-[22rem] object-cover rounded-[1rem] "
        />

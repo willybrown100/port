@@ -13,7 +13,7 @@ function AboutPage() {
  return (
    <>
      <NavBar />
-     <Sidebar/>
+     <Sidebar />
      <section className="mt-[5rem]">
        <div className={`${className}`}>
          <article className={` md:flex md:justify-between gap-4`}>
@@ -64,7 +64,7 @@ function AboutPage() {
            viewport={{ once: true }}
          >
            <img
-             src="/image/developer-pic-2.jpg"
+             src="/image/brown.jpeg"
              alt="developer"
              className=" rounded-[1rem] sm:h-[29rem] object-cover"
            />
