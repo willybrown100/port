@@ -57,7 +57,7 @@ function Contact() {
              <label className="text-xl capitalize">email</label>
              <input
                type="email"
-               placeholder="john doe"
+               placeholder="email"
                className="bg-stone-600 input w-full"
              />
            </div>
@@ -65,7 +65,7 @@ function Contact() {
              <label className="text-xl capitalize">subject</label>
              <input
                type="text"
-               placeholder="john doe"
+               placeholder="subject"
                className="bg-stone-600 input w-full"
              />
            </div>

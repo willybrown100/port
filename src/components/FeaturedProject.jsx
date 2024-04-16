@@ -22,7 +22,7 @@ function FeaturedProject() {
          <div className="space-y-8 md:flex md:justify-between md:items-center gap-4">
            <div className="bg-stone-600 p-4 rounded-[1rem] ">
              <h4 className="bg-stone-900 inline-block rounded-full p-2 mb-2">
-               project tile
+              challenge
              </h4>
              <img
                src="./public/images/fast-react-pizza SCREENSHOT.PNG"
@@ -71,7 +71,7 @@ function FeaturedProject() {
                    href="/"
                    className="uppercase  text- text-colo flex items-center gap-2"
                  >
-                   <span> see on github</span>
+                   <Link to=""> see on github</Link>
                    <FaGithub />
                  </a>
                  <div className="w-26 h-[1px] bg-yellow-100"></div>
@@ -89,13 +89,11 @@ function FeaturedProject() {
            viewport={{ once: true }}
          >
            <div className="bg-stone-600 p-4 rounded-[1rem]">
-             <h4 className="bg-stone-900 inline-block rounded-full p-2 mb-2">
-               project tile
-             </h4>
+           
              <img
                src="./public/images/worldist-keep-track-of-your-adventures.png"
                alt="fashion"
-               className="h-[24rem] object-cover"
+               className="h-[24rem] object-cover mt-4"
              />
            </div>
 
@@ -142,7 +140,7 @@ function FeaturedProject() {
          >
            <div className="bg-stone-600 p-4 rounded-[1rem]">
              <h4 className="bg-stone-900 inline-block rounded-full p-2 mb-2">
-               project tile
+               challenge
              </h4>
              <img
                src="./public/images/React-App.png"
