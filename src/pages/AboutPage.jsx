@@ -66,6 +66,7 @@ function AboutPage() {
            <img
              src="./public/images/developer-pic-2.jpg"
              alt="developer"
+             priority
              className=" rounded-[1rem] sm:h-[29rem] object-cover"
            />
          </motion.div>

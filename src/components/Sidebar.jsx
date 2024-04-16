@@ -8,7 +8,7 @@ function Sidebar() {
  const { isOpen,  handleToggle } = useToggle();
  return (
    <aside
-     className={`fixed bottom-0 top-0 px-2 py-4 z-10 translate-x-[200%] right-0 left-0  bg-stone-900  transition-all duration-300 ${isOpen ? "translate-x-0" : ""
+     className={`fixed bottom-0 top-0 px-2 py-4 z-10 side right-0 left-0  bg-stone-900  transition-all duration-300 ${isOpen ? "showSide" : ""
      }`}
    >
      <div className="py-8 grid grid-rows-[auto,1fr,auto] gap-8 h-screen">

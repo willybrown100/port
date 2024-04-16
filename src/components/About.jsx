@@ -29,8 +29,8 @@ function About() {
 
      <div className="md:hidden">
        <img
-         src="./public/images/pexels-photo-2379004.jpeg"
-         alt="williams"
+         src="/image/developer-pic-2.jpg"
+         alt="developer"
          className="h-[22rem] object-cover rounded-[1rem] "
        />
      </div>

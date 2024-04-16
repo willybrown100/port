@@ -22,10 +22,10 @@ function FeaturedProject() {
          <div className="space-y-8 md:flex md:justify-between md:items-center gap-4">
            <div className="bg-stone-600 p-4 rounded-[1rem] ">
              <h4 className="bg-stone-900 inline-block rounded-full p-2 mb-2">
-              challenge
+               challenge
              </h4>
              <img
-               src="./public/images/fast-react-pizza SCREENSHOT.PNG"
+               src="/images/fast-react-pizza SCREENSHOT.png"
                className="h-[24rem] object-cover"
                alt="img"
              />
@@ -89,9 +89,8 @@ function FeaturedProject() {
            viewport={{ once: true }}
          >
            <div className="bg-stone-600 p-4 rounded-[1rem]">
-           
              <img
-               src="./public/images/worldist-keep-track-of-your-adventures.png"
+               src="/images/Worldist-keep-track-of-your-adventures.png"
                alt="fashion"
                className="h-[24rem] object-cover mt-4"
              />
@@ -118,7 +117,7 @@ function FeaturedProject() {
              <ul className="flex gap-4 mt-4">
                <li>
                  <a
-                   href="/"
+                   href="https://worldist-app.netlify.app"
                    className="uppercase  text- text-colo flex items-center gap-2"
                  >
                    <Link to="https://worldist-app.netlify.app">live demo</Link>
@@ -143,7 +142,7 @@ function FeaturedProject() {
                challenge
              </h4>
              <img
-               src="./public/images/React-App.png"
+               src="/images/React-App.png"
                className="h-[24rem] object-cover"
                alt="img"
              />

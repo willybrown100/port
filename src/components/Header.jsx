@@ -46,8 +46,8 @@ function Header() {
        </div>
        <div>
          <img
-           src="./public/images/developer-pic-2.jpg"
-           alt="williams"
+           src="/image/developer-pic-2.jpg"
+           alt="developer"
            className="h-full md:h-[29rem] object-cover rounded-[1rem]"
          />
        </div>
