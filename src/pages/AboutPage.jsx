@@ -63,6 +63,7 @@ function AboutPage() {
            }}
            viewport={{ once: true }}
          >
+          
            <img
              src="/image/brown.jpeg"
              alt="developer"
