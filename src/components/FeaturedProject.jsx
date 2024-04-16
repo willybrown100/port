@@ -8,10 +8,11 @@ function FeaturedProject() {
      <article className={`${className}`}>
        <h1 className="mt-0">Featured project</h1>
        <p className="text-stone-300">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Et tenetur
-         explicabo, modi pariatur, ratione facere blanditiis officiis ad,
-         repellat fugit quia. Magnam explicabo quos corporis sunt eligendi
-         nihil, hic similique.
+         here are some of the projects i have worked on.Whether I&apos;m working
+         on a website or other digital product, I bring my commitment to design
+         excellence and user-centered thinking to every project I work on. I
+         look forward to the opportunity to bring my skills and passion to your
+         next project.
        </p>
        <motion.div
          className="space-y-8"

@@ -28,10 +28,9 @@ function MyExperience() {
        </div>
        <h5 className="text-colo">roos tech</h5>
        <p className="text-stone-300">
-         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi,
+        i have worked in ross tech company as an intern.amet consectetur adipisicing elit. Eligendi,
          nisi? Commodi omnis sunt ex voluptatem, fugit expedita inventore autem
-         neque eligendi dolore ipsa delectus adipisci numquam atque eum
-         recusandae? Excepturi?
+         
        </p>
      </div>
    </motion.article>
