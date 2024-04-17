@@ -40,9 +40,29 @@ function FeaturedProject() {
                limited potential, we propose a venture that involves only
                delivering food made and provided by others. Certain restaurants
                and fast food locations do not offer the convenience of a
-               delivery service. Our business aims to fill that portion of the
-               market that has so far been neglected..
+               delivery service.
              </p>
+
+             <div className="flex">
+               <span>technology stack</span>:
+               <p className="text-stone-300">react,tailwindcss,react router</p>
+             </div>
+             <div className="">
+               <span>challenges</span>:
+               <p className="text-stone-300">
+                 in this project i had to work with a third party api in order
+                 to store user's cart and information when they order for food
+                 which i didnt create myself
+               </p>
+             </div>
+             <div>
+               <span>solution</span>:
+               <p className="text-stone-300">
+                 i later got a backend developer to create for me the api so i
+                 can interact with the database because i had no backend
+                 knowledge
+               </p>
+             </div>
              <div className="divide-y   divide-stone-400">
                <h3 className=" text-xl mb-4">project info</h3>
                <div className="flex justify-between items-center py-2 ">
@@ -104,6 +124,30 @@ function FeaturedProject() {
                city you can think of. Never forget your wonderful experiences,
                and show your friends how you have wandered the world.
              </p>
+
+             <div className="flex">
+               <span>technology stack</span>:
+               <p className="text-stone-300">
+                 react,html&css,javascript,react router
+               </p>
+             </div>
+             <div className="">
+               <span>challenges</span>:
+               <p className="text-stone-300">
+                 in this project i had to bring in a map from a third party
+                 service which is leaflet library which is something i have
+                 never done before
+               </p>
+             </div>
+             <div>
+               <span>solution</span>:
+               <p className="text-stone-300">
+                 i went through the leaflet libray documentation and follow
+                 every step in order to bring in the map into my application and
+                 this how i learnt about using documentation
+               </p>
+             </div>
+
              <div className="divide-y  divide-stone-400">
                <h3 className=" text-xl mb-2">project info</h3>
                <div className="flex justify-between items-center  py-2">
@@ -157,6 +201,24 @@ function FeaturedProject() {
                Type, write, and draw notes on the device of choice just as one
                would using pen and pape.
              </p>
+
+             <div className="flex">
+               <span>technology stack</span>:
+               <p className="text-stone-300">react</p>
+             </div>
+             <div className="">
+               <span>challenges</span>:
+               <p className="text-stone-300">
+                 in this project i made sure the user info is synchronized with the app whenever the user store new item
+               </p>
+             </div>
+             <div>
+               <span>solution</span>:
+               <p className="text-stone-300">
+                  i ensured the app is intuitive and easy to use
+                 with features like search functionality and a clean interface
+               </p>
+             </div>
              <div className="divide-y space-y-4 divide-stone-400">
                <h4 className="text-xl mb-2">project info</h4>
                <div className="flex justify-between items-center  py-2">
