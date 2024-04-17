@@ -65,7 +65,7 @@ function AboutPage() {
          >
           
            <img
-             src="/image/brown.jpeg"
+             src="/image/williams.jpg"
              alt="developer"
              className=" rounded-[1rem] sm:h-[29rem] object-cover"
            />

@@ -46,7 +46,7 @@ function Header() {
        </div>
        <div>
          <img
-           src="/image/willy.jpg"
+           src="/image/office logoq111111111111111.png"
            alt="developer"
            className="h-full md:h-[29rem] object-cover rounded-[1rem]"
          />
