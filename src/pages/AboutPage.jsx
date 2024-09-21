@@ -1,12 +1,13 @@
 import { FaDownload, FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import NavBar from "../components/NavBar"
 import { Link } from "react-router-dom";
-import Skills from "../components/skills";
+
 import MyExperience from "../components/MyExperience";
 import Contact from "../components/Contact";
 import AnimatedText from "../components/AnimatedText";
 import {motion} from "framer-motion"
 import Sidebar from "../components/Sidebar";
+import MySkill from "../components/MySkill";
 
 function AboutPage() {
   const className = "max-w-6xl w-10/12 py-10 m-auto";
@@ -91,7 +92,7 @@ function AboutPage() {
                amet consectetur, adipisicing elit. Ducimus delectus rem rerum
                voluptatem ad blanditiis consequuntur quisquam id culpa quasi?
              </p>
-             <Skills />
+             <MySkill/>
            </div>
          </motion.div>
        </div>
