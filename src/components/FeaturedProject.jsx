@@ -34,7 +34,7 @@ function FeaturedProject() {
          >
            <img
              src="\images\travelCompany.png"
-             alt="img"
+             alt="travelCompany"
              className="rounded-tr-lg rounded-tl-lg h-full"
            />
 
@@ -81,7 +81,7 @@ function FeaturedProject() {
          >
            <img
              src="\images\fastfoodnew.png"
-             alt="img"
+             alt="fastfoodnew"
              className="rounded-tr-lg  rounded-tl-lg h-full"
            />
 
@@ -134,7 +134,7 @@ function FeaturedProject() {
          >
            <img
              src="\images\goodpay.png"
-             alt="img"
+             alt="goodpay"
              className="rounded-tr-lg rounded-tl-lg h-full "
            />
 
@@ -187,7 +187,7 @@ function FeaturedProject() {
          >
            <img
              src="\images\mamaz.png"
-             alt="img"
+             alt="mamaz"
              className="rounded-tr-lg rounded-tl-lg h-full"
            />
 
@@ -234,7 +234,7 @@ function FeaturedProject() {
          >
            <img
              src="\images\weather.png"
-             alt="img"
+             alt="weather"
              className="rounded-tr-lg rounded-tl-lg h-full"
            />
 
