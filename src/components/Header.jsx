@@ -36,12 +36,20 @@ function Header() {
                </div>
              </div>
            </div>
-           <button className="bg-stone-600 rounded-full  w-8 h-8  grid place-items-center ">
+           <a
+             href="/"
+             target="blank"
+             className="bg-stone-600 rounded-full  w-8 h-8  grid place-items-center "
+           >
              <FaLinkedinIn />
-           </button>
-           <button className="bg-stone-600 rounded-full  w-8 h-8  grid place-items-center ">
+           </a>
+           <a
+             href="https://github.com/willybrown100/"
+             target="blank"
+             className="bg-stone-600 rounded-full  w-8 h-8  grid place-items-center "
+           >
              <FaGithub />
-           </button>
+           </a>
          </div>
        </div>
        <div>
