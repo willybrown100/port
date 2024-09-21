@@ -13,7 +13,7 @@ const skillz = [
  skill:"javascript"
 },
  {
- skill:"jquery"
+ skill:"React"
 },
  {
  skill:"accesibility"
@@ -23,6 +23,9 @@ const skillz = [
 },
 {
 skill:"figma"
+},
+{
+skill:"nextjs"
 },
 ]
 

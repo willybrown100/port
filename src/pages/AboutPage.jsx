@@ -36,7 +36,11 @@ function AboutPage() {
                </p>
              </div>
              <div className="flex items-center gap-2">
-               <div className="bg-colo rounded-full py-1 pl-2 pr-[2px] inline-block items-center ">
+               <a
+                 href="\images\Koja Williams (1).pdf"
+                 download="Koja Williams (1).pdf"
+                 className="bg-colo rounded-full py-1 pl-2 pr-[2px] inline-block items-center "
+               >
                  <div className="flex items-center gap-2">
                    <span className="text-stone-900">download my resume</span>
                    <div className="bg-stone-900 rounded-full h-8">
@@ -45,7 +49,7 @@ function AboutPage() {
                      </button>
                    </div>
                  </div>
-               </div>
+               </a>
                <Link
                  to="https://www.linkedin.com/in/williams-goddey-a17749135/"
                  className="bg-stone-600 rounded-full text-colo w-8 h-8  grid place-items-center "
@@ -87,12 +91,14 @@ function AboutPage() {
          >
            <h2 className="mb-4"> my capabilities</h2>
            <div>
-             <p className="text-stone-300">
-               i am always looking to add more skills. Lorem ipsum dolor sit
-               amet consectetur, adipisicing elit. Ducimus delectus rem rerum
-               voluptatem ad blanditiis consequuntur quisquam id culpa quasi?
+             <p className="text-stone-300 capitalize">
+               i am Proficient in HTML, CSS, JavaScript, and modern frameworks
+               like React, Next.js, and Vue.js. Strong ability to create
+               responsive, user-friendly, and visually appealing interfaces.
+               Experience with state management libraries such as Redux and
+               Zustand.
              </p>
-             <MySkill/>
+             <MySkill />
            </div>
          </motion.div>
        </div>
@@ -106,3 +112,11 @@ function AboutPage() {
 }
 
 export default AboutPage
+    // <a
+    //   href="/path/to/your/resume.pdf" // Update with the correct path
+    //   download="Your_Resume.pdf" // Specify the name for the downloaded file
+    //   style={{ textDecoration: 'none', color: 'inherit' }} // Optional styling
+    // >
+    //   <FaDownload /> {/* Replace with your download icon */}
+    //   <span> Download Resume</span>
+    // </a>

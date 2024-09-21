@@ -48,7 +48,7 @@ function About() {
            designing while i am not programming.i enjoy playing
            football,listening to music.learningf more to improve my skills
          </p>
-         <Link to="about" className="text-colo">
+         <Link to="about" className="text-colo capitalize" >
            more about me <div className="w-[4.5rem] h-[1px] bg-colo"></div>
          </Link>
        </div>

@@ -18,14 +18,18 @@ function Contact() {
            <h2 className="mb-4  font-font">let's connect</h2>
            <div className="flex gap-2 mb-4">
              <span>say hello at </span>
-             <a href="/" className="">
+             <a className="" target="blank">
                williamsgoddey11@gmail.com
                <div className="w-[9.4rem] h-[1px] bg-yellow-100"></div>
              </a>
            </div>
            <div className="flex gap-2">
              <span>for more info here is my </span>
-             <a href="/">
+             <a
+               target="blank"
+               href="\images\Koja Williams (1).pdf"
+               download="Koja Williams (1).pdf"
+             >
                resume
                <div className="w-[2rem] h-[1px] bg-yellow-100"></div>
              </a>
