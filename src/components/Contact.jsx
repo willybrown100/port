@@ -1,6 +1,7 @@
 
 import {  FaGithub, FaLinkedinIn, FaSquareXTwitter } from "react-icons/fa6";
 import {motion}from "framer-motion"
+import { Link } from "react-router-dom";
 
 function Contact() {
     const className = "max-w-6xl w-10/12 py-8 m-auto";
@@ -31,26 +32,35 @@ function Contact() {
            </div>
            <ul className="flex space-x-8 items-center mt-8">
              <li>
-               <FaGithub className="text-colo text-2xl" />
+               <Link to="https://github.com/willybrown100/">
+                 <FaGithub className="text-colo text-2xl" />
+               </Link>
              </li>
              <li>
-               <FaLinkedinIn className="text-colo text-2xl" />
+               <Link to="https://www.linkedin.com/in/williams-goddey-a17749135/">
+                 <FaLinkedinIn className="text-colo text-2xl" />
+               </Link>
              </li>
              <li>
-               <FaSquareXTwitter className="text-colo text-2xl" />
-             </li>
-             <li>
-               <FaGithub className="text-colo text-2xl" />
+               <Link to="https://x.com/goddey_williams">
+                 <FaSquareXTwitter className="text-colo text-2xl" />
+               </Link>
              </li>
            </ul>
          </div>
-         <form className="mt-8 md:mt-0 md:w-[600px]">
+         <form
+           className="mt-8 md:mt-0 md:w-[600px]"
+           action="https://formspree.io/f/xyzgqeon"
+           method="POST"
+         >
            <div className="mb-5 flex flex-col ">
              <label className="text-xl capitalize">name</label>
              <input
                type="text"
                placeholder="john doe"
                className="bg-stone-600 input w-full"
+               required
+               name="name"
              />
            </div>
            <div className="mb-5 flex flex-col">
@@ -59,6 +69,8 @@ function Contact() {
                type="email"
                placeholder="email"
                className="bg-stone-600 input w-full"
+               required
+               name="email"
              />
            </div>
            <div className="mb-5 flex flex-col ">
@@ -67,6 +79,8 @@ function Contact() {
                type="text"
                placeholder="subject"
                className="bg-stone-600 input w-full"
+               required
+               name="subject"
              />
            </div>
            <div className="mb-5 flex flex-col  ">
@@ -74,6 +88,8 @@ function Contact() {
              <textarea
                placeholder="type here"
                className="h-[6rem] bg-stone-600 input w-full"
+               required
+               name="message"
              />
            </div>
            <button className="text-xl text-stone-900 p-2 px-4 font-semibold bg-colo rounded-full">

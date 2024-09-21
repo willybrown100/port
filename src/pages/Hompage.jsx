@@ -14,11 +14,11 @@ function Hompage() {
      <Sidebar />
      <Header />
      
-     <div className="border-b my-4 mt-2"></div>
+     <div className="border-b my-4 mt-2"/>
      <FeaturedProject />
-     <div className="border-b my-4"></div>
+     <div className="border-b my-4"/>
      <About />
-     <div className="border-b my-4"></div>
+     <div className="border-b my-4"/>
      <Contact />
      <Footer />
    </>

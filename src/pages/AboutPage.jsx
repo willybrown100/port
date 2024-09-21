@@ -45,10 +45,16 @@ function AboutPage() {
                    </div>
                  </div>
                </div>
-               <Link className="bg-stone-600 rounded-full text-colo w-8 h-8  grid place-items-center ">
+               <Link
+                 to="https://www.linkedin.com/in/williams-goddey-a17749135/"
+                 className="bg-stone-600 rounded-full text-colo w-8 h-8  grid place-items-center "
+               >
                  <FaLinkedinIn />
                </Link>
-               <Link className="bg-stone-600 rounded-full text-colo  w-8 h-8  grid place-items-center ">
+               <Link
+                 to="https://github.com/willybrown100/"
+                 className="bg-stone-600 rounded-full text-colo  w-8 h-8  grid place-items-center "
+               >
                  <FaGithub />
                </Link>
              </div>
@@ -63,7 +69,6 @@ function AboutPage() {
            }}
            viewport={{ once: true }}
          >
-          
            <img
              src="/image/williams.jpg"
              alt="developer"
