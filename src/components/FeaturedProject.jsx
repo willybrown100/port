@@ -102,7 +102,7 @@ function FeaturedProject() {
                <p className="capitalize font-medium">tech stack:</p>
                <p className="capitalize tracking-wide font-medium">
                  React,nodejs,javascript,
-                 <br />
+                 
                  tailwind
                </p>
              </div>

@@ -18,8 +18,8 @@ navigate("/")
    <nav className="p-4 h-16 fixed bg-stone-900 top-0 left-0 right-0 z-20">
      <div className="w-[90vw] max-w-[1170px] m-auto md:flex justify-between items-center">
        <div className="flex justify-between gap-4">
-         <NavLink to="/" className="text-2xl">
-           williams
+         <NavLink to="/" className="text-2xl capitalize flex items-center gap-x-1 ">
+           williams <span className="font-semibold text-2xl">.</span>
          </NavLink>
          <button onClick={handleToggle} className="text-xl z-30 sm:hidden">
            {isOpen ? (

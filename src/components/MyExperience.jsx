@@ -25,13 +25,19 @@ function MyExperience() {
        </p>
        <div className="md:flex justify-between">
          <h4 className="capitalize">front-end intern</h4>
-         <p className="text-stone-300 text-[0.96rem] capitalize">sep 2023 - nov2023</p>
+         <p className="text-stone-300 text-[0.96rem] capitalize">
+           sep 2023 - nov2023
+         </p>
        </div>
        <h5 className="text-colo capitalize"> tech studio academy</h5>
        <p className="text-stone-300">
-         i have worked in tech studio academy as an intern.amet consectetur
-         adipisicing elit. Eligendi, nisi? Commodi omnis sunt ex voluptatem,
-         fugit expedita inventore autem
+         Successfully led a team of front-end developers to build and deliver
+         the "TechEat" project, a web platform that enables students to order
+         food efficiently. Coordinated team activities, delegated tasks, and
+         ensured that project milestones were met within the specified
+         timelines. Worked closely with team members to design, develop, and
+         implement features using modern technologies such as React, Next.js,
+         and Tailwind CSS.
        </p>
      </div>
    </motion.article>
