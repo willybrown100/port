@@ -66,7 +66,7 @@ function AboutPage() {
            </div>
          </article>
          <motion.div
-           className="my-8"
+           className="my-8 hidden md:block "
            initial={{ y: 200 }}
            whileInView={{
              y: 0,
@@ -77,7 +77,7 @@ function AboutPage() {
            <img
              src="/image/williams.jpg"
              alt="developer"
-             className=" rounded-[1rem] sm:h-[29rem] object-cover"
+             className=" rounded-[1rem] h-[11rem] sm:h-[29rem] object-cover"
            />
          </motion.div>
          <motion.div
