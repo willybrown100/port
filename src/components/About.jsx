@@ -28,10 +28,15 @@ function About() {
      </div>
 
      <div className="md:hidden">
-       <img
+       {/* <img
          src="/image/williams.jpg"
          alt="developer"
          className="h-[22rem] object-cover rounded-[1rem] "
+       /> */}
+       <img
+         src="/image/office logoq111111111111111.png"
+         alt="developer"
+         className=" h-[22rem] object-cover rounded-[1rem]"
        />
      </div>
      <article className="hidden md:flex justify-between gap-4">
@@ -48,7 +53,7 @@ function About() {
            designing while i am not programming.i enjoy playing
            football,listening to music.learningf more to improve my skills
          </p>
-         <Link to="about" className="text-colo capitalize" >
+         <Link to="about" className="text-colo capitalize">
            more about me <div className="w-[4.5rem] h-[1px] bg-colo"></div>
          </Link>
        </div>
